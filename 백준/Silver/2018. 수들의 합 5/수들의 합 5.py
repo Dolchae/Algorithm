@@ -6,7 +6,7 @@ n = int(input())
 start, end, sum, ans = 1,1,1,0
 
 
-while end < n:
+while end <= n:
     if sum < n:
         end += 1
         sum += end
@@ -18,5 +18,4 @@ while end < n:
         sum -= start
         start += 1
 
-ans += 1
 print(ans)
