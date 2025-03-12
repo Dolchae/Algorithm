@@ -6,7 +6,4 @@ class Solution:
             new_x = new_x * 10 + x % 10
             x //= 10
         
-        if origin_x == new_x:
-            return True
-        else:
-            return False
+        return origin_x == new_x
